@@ -3,6 +3,7 @@
 :root {
   --text-color: #667085;
   --main-color: #8e2424;
+  --black: #101828;
 }
 
 * {
@@ -52,7 +53,7 @@ nav {
 
 .links a:hover,
 .links a:active {
-  color: #000;
+  color: var(--black);
 }
 
 .btn {
@@ -96,7 +97,7 @@ nav {
 .title-section-1 {
   font-size: 4.8rem;
   font-weight: 600;
-  color: #101828;
+  color: var(--black);
   padding: 3.2rem 0;
 }
 
@@ -125,10 +126,52 @@ nav {
 .metrics-secondary {
   font-size: 1.8rem;
   font-weight: 500;
-  color: #101828;
+  color: var(--black);
   padding: 0 0 1.6rem 0;
 }
 
 .metrics-text {
   font-size: 1.6rem;
+}
+
+/* JOBS SECTION */
+
+.jobs {
+  text-align: center;
+  padding: 9.6rem 8rem 0 8rem;
+}
+
+.intro-jobs {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--main-color);
+  background-color: rgba(142, 36, 36, 0.05);
+  padding: 0.4rem 1.2rem;
+  margin-bottom: 3.2rem;
+  border-radius: 16px;
+}
+
+.title-jobs {
+  font-size: 3.6rem;
+  font-weight: 600;
+  color: var(--black);
+  padding: 3.2rem 0;
+}
+
+.text-jobs {
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 0 0 4.8rem 0;
+}
+
+.img-jobs {
+  width: 1200px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.img-jobs img {
+  width: 100%;
+  height: auto;
+  margin-left: -5rem;
 }
