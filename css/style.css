@@ -139,6 +139,7 @@ nav {
 .jobs {
   text-align: center;
   padding: 9.6rem 8rem 0 8rem;
+  height: 75rem;
 }
 
 .intro-jobs {
@@ -178,4 +179,48 @@ nav {
   width: 100%;
   height: auto;
   margin-left: -5rem;
+}
+
+/* JOBS DETAILS SECTION */
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+  padding: 9.6rem 3.2rem;
+}
+
+.area-name {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--black);
+  margin-bottom: 3.2rem;
+}
+
+.area {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.job {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  border: 1px solid #eaecf0;
+  border-radius: 1.6rem;
+  padding: 2.4rem 2.4rem 2.8rem 2.4rem;
+}
+
+.job-name {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--black);
+}
+
+.period,
+.salary {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--text-color);
 }
