@@ -218,6 +218,11 @@ nav {
   color: var(--black);
 }
 
+.job-info {
+  display: flex;
+  gap: 2.4rem;
+}
+
 .period,
 .salary {
   font-size: 1.6rem;
