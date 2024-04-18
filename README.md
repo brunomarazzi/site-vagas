@@ -18,7 +18,6 @@ Este projeto foi realizado como parte do desafio 7daysofcode da Alura (https://7
 
 - HTML5
 - CSS3
-- JS
 
 ## Como Usar
 
